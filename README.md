@@ -1,24 +1,11 @@
 # rabbihog
 
-[![Package Version](https://img.shields.io/hexpm/v/rabbihog)](https://hex.pm/packages/rabbihog)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/rabbihog/)
+A simulation engine to run a rabbits and hogs.
 
-```sh
-gleam add rabbihog@1
-```
-```gleam
-import rabbihog
+## Roadmap & Development
+[] - prototype with CLI sim and ASCII rabbits and hogs
+[] - UI layer with terminal graphics or web UI 
+[] - Input for player to control the rabbits 
+[] - Depth to add logic, upgrades to rabbits and plants, and learning for the hog AI 
+[] - Game like save/load, story, levels
 
-pub fn main() -> Nil {
-  // TODO: An example of the project in use
-}
-```
-
-Further documentation can be found at <https://hexdocs.pm/rabbihog>.
-
-## Development
-
-```sh
-gleam run   # Run the project
-gleam test  # Run the tests
-```
