@@ -44,10 +44,10 @@ fn on_url_change(uri: Uri) -> Msg {
 
 fn parse_route(path: String) -> Route {
   case uri.path_segments(path) {
-    ["About"] -> about
-    ["Projects"] -> projects
-    ["Contact"] -> contact
-    _ -> home
+    ["About"] -> About
+    ["Projects"] -> Projects
+    ["Contact"] -> Contact
+    _ -> Home
   }
 }
 
